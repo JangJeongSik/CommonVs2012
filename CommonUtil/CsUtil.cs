@@ -43,6 +43,7 @@ namespace CommonUtil
 		}
 
 
+
 		/// <summary>
 		/// <para> ▩ 형변환 - String을 Int32로 변환 및 리턴 한다.</para>
 		/// </summary>
@@ -70,6 +71,7 @@ namespace CommonUtil
 
 			return iReturn;
 		}
+
 
 
 		/// <summary>
