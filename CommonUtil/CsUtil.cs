@@ -15,6 +15,35 @@ namespace CommonUtil
 		#region ▩ 형변환 메서드 정리
 
 		/// <summary>
+		/// <para> ▩ 형변환 - String을 Int16로 변환 및 리턴 한다.</para>
+		/// </summary>
+		/// <param name="input">입력 문자열</param>
+		/// <returns>변환 리턴 값</returns>
+		public static Int16 Con_Str_Int16(string input)
+		{
+			return Con_Str_Int16(input, 0);
+		}
+
+		/// <summary>
+		/// <para> ▩ 형변환 - String을 Int16로 변환 및 리턴 한다.</para>
+		/// </summary>
+		/// <param name="input">입력 문자열</param>
+		/// <param name="defValue">기본값: 없으면 0으로 셋팅</param>
+		/// <returns>변환 리턴 값</returns>
+		public static Int16 Con_Str_Int16(this string input, Int16 defValue = 0)
+		{
+			Int16 iReturn = 0;
+
+			if (!Int16.TryParse(input, out iReturn))
+			{
+				iReturn = defValue;
+			}
+
+			return iReturn;
+		}
+
+
+		/// <summary>
 		/// <para> ▩ 형변환 - String을 Int32로 변환 및 리턴 한다.</para>
 		/// </summary>
 		/// <param name="input">입력 문자열</param>
