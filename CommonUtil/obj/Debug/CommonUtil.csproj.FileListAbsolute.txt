@@ -1,0 +1,5 @@
+C:\git_local\CommonVs2012\CommonUtil\bin\Debug\CommonUtil.dll
+C:\git_local\CommonVs2012\CommonUtil\bin\Debug\CommonUtil.pdb
+C:\git_local\CommonVs2012\CommonUtil\obj\Debug\CommonUtil.csprojResolveAssemblyReference.cache
+C:\git_local\CommonVs2012\CommonUtil\obj\Debug\CommonUtil.dll
+C:\git_local\CommonVs2012\CommonUtil\obj\Debug\CommonUtil.pdb
